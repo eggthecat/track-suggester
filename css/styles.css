@@ -1,7 +1,12 @@
 body {font-family: 'Germania One', cursive;
 }
 
-
+button {
+  padding: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: red;
+}
 
 hr {
   width: 100%;
