@@ -15,3 +15,23 @@ hr {
   border-bottom: 1px solid black;
 
 }
+
+#Android {
+  display: none;
+}
+
+#Apple {
+  display: none;
+}
+
+#Error {
+  display:none;
+}
+
+#Micro {
+  display: none;
+}
+
+#Young {
+  display:none;
+}
