@@ -40,6 +40,8 @@ $(document).ready(function() {
   });
   });
 
+  
+
   // <form id="coderForm">
   //       <div class="buttons">
   //         <div class="radio">
