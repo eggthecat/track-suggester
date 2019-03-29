@@ -35,19 +35,47 @@
     <h2>Suggester</h2>
     <p>
     <!-- //short description on how this might help selecting potntial carreer; make it fun and not literal since there is no professional advisory attached to project -->
-    <ul>
+    <!-- <ul>
       <li>How old are you?</li>
       <!-- Anything below 16 is automatically sent to SCRATCH;  n= next question -->
-      <li>Do you want to make a career change to coding?</li>
+      <!-- <li>Do you want to make a career change to coding?</li>
       <!--y or n y= able to select furth questions ; n= SCRATCH -->
-      <li>Do you like Apple's OS interface?</li>
+      <!-- <li>Do you like Apple's OS interface?</li>
       <!-- y or n n= next question ; y=swift-->
-      <li>Do you like Microsoft's OS interface?</li>
+      <!-- <li>Do you like Microsoft's OS interface?</li>
       <!-- y or n n= next question ; y=c#-->
-      <li>Do you like Android's OS interface</li>
+      <!-- <li>Do you like Android's OS interface</li> --> 
       <!-- y or n n=SCRATCH ; y=koitlin -->
-    </ul>
+    <!-- </ul> -->
     <!-- //make answer appear in jumbotron below quiz -->
+    <form id="programs">
+         <label for="qOne">Do you want to make a career change to coding?</label>
+         <select class="form-control" id="qOne">
+           <option value="1">Yes</option>
+           <option value="2">No</option>
+         </select>
+         <br>
+         <label for="qTwo">Do you like Apple's OS interface?</label>
+         <select class="form-control" id="qTwo">
+           <option value="1">Yes</option>
+           <option value="2">No</option>
+         </select>
+         <br>
+         <label for="qThree">Do you like Microsoft's OS interface?</label>
+         <select class="form-control" id="qThree">
+           <option value="1">Yes</option>
+           <option value="2">No</option>
+         </select>
+         <br>
+           <label for="qFour">Do you like Android's OS interface?</label>
+           <select class="form-control" id="qFour">
+             <option value="1">Yes</option>
+             <option value="2">No</option>
+           </select>
+         <br>
+           <button type="submit" class="btn">Submit</button>
+       </form>
+
     <hr>
 
     <div class="results">
