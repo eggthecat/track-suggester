@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  $("#coderForm").submit(function(event) {
+  $("#form").submit(function(event) {
     event.preventDefault();
-    var coder = $('input[name=animal]:checked').val();
+    var coder = $('input[name=coder]:checked').val();
 
     if(coder === "Young") {
       $("#Error").hide();
@@ -27,14 +27,12 @@ $(document).ready(function() {
       $("#Apple").show();
       $("#Micro").show();
       $("#Android").hide();
-    } else (coder === "Android") {
+    } else if (coder === "Android") {
       $("#Error").hide();
       $("#Young").hide();
       $("#Apple").show();
       $("#Micro").hide();
       $("#Android").hide();
     }
-
     };
-
   });
