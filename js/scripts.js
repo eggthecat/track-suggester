@@ -2,7 +2,6 @@ $(document).ready(function() {
   $("#form").submit(function(event) {
     event.preventDefault();
     var coder = $('input[name=coder]:checked').val();
-
     if(coder === "Young") {
       $("#Error").hide();
       $("#Apple").hide();
@@ -24,7 +23,7 @@ $(document).ready(function() {
     } else if(coder === "Micro") {
       $("#Error").hide();
       $("#Young").hide();
-      $("#Apple").show();
+      $("#Apple").hide();
       $("#Micro").show();
       $("#Android").hide();
     } else if (coder === "Android") {
