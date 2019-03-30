@@ -33,6 +33,6 @@ $(document).ready(function() {
       $("#Apple").show();
       $("#Micro").hide();
       $("#Android").hide();
-    }
-    };
+};
+    });
   });
