@@ -35,3 +35,14 @@ hr {
 #Young {
   display: none;
 }
+
+body{
+    background-image: url('https://giphy.com/embed/8HBQVfRiA1Q64');
+    background-size: cover;
+
+
+
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
